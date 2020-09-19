@@ -101,7 +101,8 @@ async function tensorsToBBoxes({ scores, boxes, width, height }) {
         }
       ],
       score: maxScores[index].item,
-      class: CLASSES[maxScores[index].index + 1].displayName
+      class: CLASSES[maxScores[index].index + 1].displayName,
+      id: maxScores[index].index + 1
     }
   })
 
