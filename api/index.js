@@ -4,6 +4,7 @@ const { send, buffer } = require('micro')
 const cors = require('micro-cors')()
 const Jimp = require('jimp')
 
+
 const CLASSES = require('./lib/classes')
 const { BadRequestError, handleError } = require('./lib/error')
 
