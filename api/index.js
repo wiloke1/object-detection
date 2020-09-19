@@ -11,6 +11,7 @@ const TF_MODEL_URL = process.env.TF_MODEL_URL
 
 const CONTENT_TYPES_IMAGE = ['image/jpeg', 'image/png']
 
+
 let tfModelCache
 
 async function loadModel() {
